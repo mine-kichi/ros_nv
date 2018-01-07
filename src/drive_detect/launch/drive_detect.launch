@@ -1,0 +1,6 @@
+<launch>
+  <arg name="hoge"/>
+  <node pkg="drive_detect" name="drive_detect" output="screen" type="drive_detect_node">
+  <param name="piyo" value="($arg hoge)"/>
+  </node>
+</launch>
