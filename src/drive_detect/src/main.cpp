@@ -374,7 +374,7 @@ int main(int argc, char **argv)
 
     ros::Rate loop_rate(1);
 
-   cv::Mat rgb_image = cv::imread("/home/mine/work/driveworks_work/ros-nv/src/drive_detect/src/test.jpg",1);
+   cv::Mat rgb_image = cv::imread("/home/mine/work/test/ros_nv/src/drive_detect/src/image.png",1);
    //  cv::imshow("Image", image);
    //  cv::waitKey(30);
    int width = rgb_image.size().width;
